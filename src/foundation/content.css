@@ -1,0 +1,11 @@
+.block-content {
+  padding-block: 2rem;
+}
+
+.inline-content {
+  padding-inline: 1rem;
+}
+
+.text-content {
+  max-inline-size: 60ch;
+}

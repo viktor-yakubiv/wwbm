@@ -1,0 +1,57 @@
+/* Layout */
+
+.splash-view {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, fit-content(20rem)) 1fr;
+  grid-template-areas: '. decoration content .';
+  gap: var(--row-gap) var(--column-gap);
+}
+
+.splash-view > * {
+  margin-block: auto;
+  flex-grow: 1;
+  flex-basis: 20rem;
+}
+
+.splash-view > aside {
+  grid-area: decoration;
+}
+
+.splash-view > main {
+  grid-area: content;
+}
+
+.splash-view > main > * + * {
+  margin-block-start: 3rem;
+}
+
+.splash-view-image {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+@media (orientation: portrait) {
+  .splash-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .splash-view > main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .splash-view > main > * {
+    margin-block: auto;
+  }
+}
+
+
+/* Decorations */
+
+.splash-view {
+  background-image:
+    linear-gradient(to bottom right, var(--white-100) 50%, var(--orange-5) 50%);
+}

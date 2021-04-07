@@ -1,0 +1,29 @@
+.button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.16;
+  padding: 0.5em 1em;
+  color: var(--white-100);
+  border: 0;
+  background-color: var(--orange-100);
+  text-decoration: none;
+  border-radius: 0.75rem;
+  transition: background-color 150ms;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-100);
+  background-color: var(--orange-80);
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button:active {
+  color: var(--white-100);
+  background-color: var(--orange-120);
+}

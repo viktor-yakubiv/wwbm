@@ -1,0 +1,9 @@
+:root {
+  --container-padding-block: 1rem;
+  --container-padding-inline: 1rem;
+
+  --content-inline-size: 80ch;
+
+  --column-gap: 2rem;
+  --row-gap: 1.5rem;
+}

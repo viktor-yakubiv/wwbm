@@ -1,0 +1,12 @@
+extends:
+  - airbnb
+
+env:
+  browser: true
+
+rules:
+  react/jsx-props-no-spreading: off
+  react/prop-types:
+    - error
+    - skipUndeclared: true
+      ignore: ['children', 'class', 'className', 'id', 'tag']

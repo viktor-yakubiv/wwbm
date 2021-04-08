@@ -21,7 +21,7 @@ project directory and start development as follows:
 
 ```sh
 npm install
-npm run dev
+npm start
 ```
 
 Open [localhost:3000](http://localhost:3000) to see the website.

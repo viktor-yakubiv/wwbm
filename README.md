@@ -29,7 +29,7 @@ Open [localhost:3000](http://localhost:3000) to see the website.
 __Well done! 🎉__
 
 
-### Production build
+## Production build
 
 Simply do the following:
 
@@ -42,6 +42,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+
+## Deployed version
+
+Project is deployed on GitHub Pages. You can access it at\
+[viktor-yakubiv.github.io/wwbm](https://viktor-yakubiv.github.io/wwbm).
 
 
 [node-download]: https://nodejs.org/en/download/

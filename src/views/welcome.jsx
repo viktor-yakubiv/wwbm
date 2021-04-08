@@ -5,7 +5,7 @@ import { Button } from '../components';
 
 const WelcomeView = ({ onStart }) => (
   <SplashView className="welcome-view">
-    <h1 className="headline">Who wants to be a millionare?</h1>
+    <h1 className="headline">Who wants to be a millionaire?</h1>
     {onStart
       && <Button onClick={onStart}>Start</Button>}
   </SplashView>

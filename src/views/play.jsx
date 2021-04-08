@@ -23,7 +23,7 @@ const PlayView = ({
 
   return (
     <div className="play-view">
-      <h1 className="visually-hidden">Who wants to be a millionare?</h1>
+      <h1 className="visually-hidden">Who wants to be a millionaire?</h1>
 
       <main className="play-view-main block-content inline-content">
         <h2 className="visually-hidden">

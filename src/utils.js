@@ -1,10 +1,11 @@
 const currencyFormat = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
-  maximumFractionDigits: 0,
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2,
 });
 
-const formatCurrency = (n) => currencyFormat.format(n);
+const formatCurrency = (n) => currencyFormat.format(n).slice(0, -3);
 
 // eslint-disable-next-line import/prefer-default-export
 export { formatCurrency };
